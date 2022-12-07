@@ -23,8 +23,8 @@ const TasksPage = () => {
     }
 
     return (
-        <div className='container'>
-            <h1 className='text-center'>Tasks</h1>
+        <div className='container '>
+            <h1 className='text-center m-4'>Tasks</h1>
             <div className="row">
             {renderMain()}
             </div>
